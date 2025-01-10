@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+<script>
+function DeleteClick()
+{
+console.warn("Record will be deleted");
+
+    { 
+     if(confirm("Are you sure want to delete ?")==true)
+     {
+         document.querySelector("h1").innerText="Record Deleted";
+     }
+     else
+     {
+         alert("You canceled...");
+     }
+
+    }
+}
+</script>
+
+</head>
+
+<body>
+
+    <h2>Click delete button to remove record </h2>
+
+    <button onclick="DeleteClick()"> Delete</button>
+<h1 align="Center:"></h1>
+</body>
+</html>
